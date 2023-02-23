@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product-img {
+}
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  grid-column: 1/-1;
+  padding: 15px;
+}
+
+.product-info {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.sale-btn {
+  color: white;
+  background-color: red;
+  border: none;
+  position: relative;
+  height: 30px;
+  width: 60px;
+  top: -15px;
+  left: -30px;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.more-info {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.details-list {
+  list-style: square;
+}
+
+.add-cart {
+  background-color: #000;
+  border: 5px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  grid-column: 1/-1;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+  border-top: 4px solid black;
+}
+
+.color {
+  height: 22px;
+  width: 22px;
+  background-color: black;
+  display: inline-block;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-brown {
+  background-color: brown;
+}
+.color-green {
+  background-color: greenyellow;
+}
+
+.product-details {
+  margin-top: 20px;
+  flex: 1;
+}
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
